@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Prakhar's Website</title>
+  <link rel="icon" href="fav1.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sacramento&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ 
+
+  
+
+</head>
+
+
+
+<body>
+  
+
+
+
+  
+  <!-- Slide 1 (title slide) -->
+
+  <section class="coloured" id="title">
+    <div id="slide-1" class="container-fluid"> 
+
+      <!-- Nav Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Prakhar Avasthi</a>
+        <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/prakhar-avasthi-35067a1bb/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="https://drive.google.com/drive/folders/1iDGgHPqc9WEAyO5fbNjMShmBSo6o0G3o?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/AvasthiPrakhar/Portfolio" target="_blank" rel="noopener noreferrer">Github</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>  
+   
+      
+
+    <div id="slide-1" class="container-fluid"> 
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-12 ">
+          <h1 class="title-h1">Data Exploration Project</h1>
+          <br>
+          <h1 > Global Covid data</h1>
+          
+<!-- 
+          <a href="#project"><button class="btn btn-outline-light btn-lg download-button" type="button"> Projects</button></a>
+          <a href="#cta"><button class="btn btn-outline-light btn-lg download-button" type="button">Contact</button></a>
+          <a href="https://github.com/AvasthiPrakhar/Portfolio/tree/main/Data%20Cleaning%20of%20Housing%20Data%20of%20a%20city" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light btn-lg download-button" type="button"> Resume</button></a>
+          <a href="https://drive.google.com/drive/folders/1iDGgHPqc9WEAyO5fbNjMShmBSo6o0G3o?usp=sharing" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light btn-lg download-button" type="button"> Resume</button></a> -->
+
+
+
+        </div>
+    
+
+      </div>
+      
+    </div>
+  </section>
+
+
+  <!-- Slide 2 -->
+<section >
+    <div id="slide-2" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to view original raw data</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>Viewing original data in untreated form</li>
+                    <li>Deriving inferences and planning furthur steps</li>
+                    
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    SELECT * FROM CovidDeaths$
+                    <br>
+                    ORDER BY 3,4 <br>
+                    SELECT * FROM CovidVaccinations$ <br>
+                    ORDER BY 3,4 
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s2i1.jpg" alt="slide-2-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+  <!-- Slide 3 -->
+<section >
+    <div id="slide-3" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to Find USA death rate vs population, infection rate vs population</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>death rate vs population, and infection rate vs population are derived and printed in </li>
+                    <li>new columns 'deathPercentage' and 'casePercentage' displaying the same are added </li>
+
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    SELECT location,date,population , (total_deaths/population)*100 'deathPercentage'
+                    <br>
+                    ,(total_cases/population)*100 'casePercentage'
+                    FROM CovidDeaths$ <br>
+                    WHERE location like '%states%' <br>
+                    ORDER BY 1,2 
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s3i1.jpg" alt="slide-3-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+  <!-- Slide 4 -->
+  <section >
+    <div id="slide-4" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to Find total deaths and new deaths with respect to location and date</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>total deaths and new deaths with respect to location and date are displayed</li>
+
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    select location,date,new_deaths,total_deaths from CovidDeaths$ <br>
+                    order by 1,2
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s4i1.jpg" alt="slide-4-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+  <!-- Slide 5 -->
+  <section >
+    <div id="slide-5" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to display max death and max infected for different countires</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>MAX and GROUP BY are used generate max death percentage and max infected percentage
+                     with respect to countires </li>
+                    <li>ORDER BY is used to order them in descending order</li>
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    SELECT location,MAX(total_deaths/population)*100 'deathPercentage'
+                    <br>
+                    ,MAX(total_cases/population)*100 'casePercentage'
+                    <br>
+                    FROM CovidDeaths$
+                    <br>
+                    GROUP BY location
+                    <br>
+                    ORDER BY 3 DESC
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s5i1.jpg" alt="slide-5-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+  <!-- Slide 6 -->
+  <section >
+    <div id="slide-6" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to display highest death count for different country</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>highest death count per country is displayed</li>
+                    <li>"WHERE continent is not null" is a specific "fix" for this database,  it was needed so that countries, and not continents (which are also present in the 'location' column) are displayed</li>
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    SELECT location,MAX(cast(total_deaths AS int)) 'total deaths'
+                    <br>
+                    FROM CovidDeaths$
+                    <br>
+                    WHERE continent is not null
+                    <br>
+                    GROUP BY location
+                    <br>
+                    ORDER BY 2 DESC                  
+
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s6i1.jpg" alt="slide-6-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+  <!-- Slide 7 -->
+  <section >
+    <div id="slide-7" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to display corrected continent deaths</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>two temp tables have been INNER joined so that correct number of deaths in t2 can be displayed against continents in t1</li>
+
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    --highest death count in world entities <br>
+                    CREATE TABLE t2_worlddeath <br>
+                    (t2loaction varchar(250), <br>
+                    t2deathrate int) <br>
+
+                    --creating a temp table <br>
+                    insert into t2_worlddeath <br>
+                    SELECT location,MAX(cast(total_deaths AS int)) 'total deaths' <br>
+                    FROM CovidDeaths$ <br>
+                    WHERE continent is null <br> 
+                    GROUP BY location <br>
+                    ORDER BY 2 DESC <br>
+                    <br>
+                    -- creating another temp table <br>
+                    CREATE TABLE t1_continentdeath <br>
+                    (temploaction varchar(250), <br>
+                    tempdeathrate int) <br>
+                    <br>
+                    --highest death count per continent <br>
+                    INSERT INTO t1_continentdeath <br>
+                    SELECT continent,MAX(cast(total_deaths AS int)) 'total deaths' <br>
+                    FROM CovidDeaths$ <br>
+                    WHERE continent is not null <br>
+                    GROUP BY continent <br>
+                    ORDER BY 2 DESC <br>
+                    <br>
+                    select * from t1_continentdeath <br>
+                    select * from t2_worlddeath <br>
+                    
+                    <br>
+                    --corrected continent deaths <br>
+                    select t2loaction,t2deathrate <br>
+                    from t1_continentdeath inner join t2_worlddeath <br>
+                    on temploaction=t2loaction <br>
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s7i1.jpg" alt="slide-7-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+  <!-- Slide 8 -->
+  <section >
+    <div id="slide-8" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to obatin Global death percentage</h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>We can either run the lines tagged with "---1" to obtain death percent on each day</li>
+                    <li>or, run the CTE to obtain global deaths. </li>
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                 
+ 
+                    WITH CTE_globalCases AS ( <br>
+                    <br>
+                    select date,SUM(new_cases) "total cases" ,													---1 <br>
+                    SUM(cast(new_deaths as int))"total deaths", <br>
+                    (SUM(cast(new_deaths as float))/SUM(new_cases))*100  "death percent wrt cases" <br>
+                    from CovidDeaths$ <br>
+                    where continent is not null <br>
+                    group by date <br>
+                    ) <br>
+                    SELECT SUM([total cases]) as "total global cases",											---2 <br>
+                        SUM([total deaths]) as "total global deaths",<br>
+                        (SUM([total deaths])/SUM([total cases]))*100 as "total death percent wrt cases "<br>
+                    FROM CTE_globalCases <br>
+
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s8i1.jpg" alt="slide-8-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+  <!-- Slide 9 -->
+  <section >
+    <div id="slide-9" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to obtain new vaccinations against location and date
+                </h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>new vaccinations against location and date are displayed by joining two tables in the database</li>
+                    <li>a 'cumulative frequency column of new vaccinations' is also derived</li>
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    select dea.continent,dea.location,dea.date, dea.population,vac.new_vaccinations <br>
+                    , sum(cast(vac.new_vaccinations as int)) over (partition by dea.location order by dea.date,dea.location ) as 'cumulative freq' <br>
+                    from [Project 1 SQL DATA EXPLORATION]..CovidDeaths$ dea <br>
+                    join CovidVaccinations$ vac <br>
+                    on dea.date = vac.date and dea.location=vac.location <br>
+                    where dea.continent is not null <br>
+                    and vac.new_vaccinations is not null <br>
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s9i1.jpg" alt="slide-9-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+  <!-- Slide 10-->
+  <section >
+    <div id="slide-10" class="container-fluid"> 
+        <div class="row">
+            
+            
+            <!-- title of the slide-->
+            <div class="col-lg-12 ">
+                <h2 >Query to obtain cumulative vaccinations percentage against location and date
+                </h2>
+            </div>
+
+            <!-- description-->
+            <div> 
+                <ul>
+                    <li>a CTE using the above query</li>
+                    <li>a new column  "cumulative vaccinations percentage" is derived and displayed  </li>
+                </ul>
+            </div>
+
+            <!-- code-->
+            <div id="coding" class="col-lg-12 ">
+                <h3>Code:</h3>
+                <p >
+                    with CTE_popANDvac <br>
+                    AS ( <br>
+                    select dea.continent,dea.location,dea.date, dea.population,vac.new_vaccinations <br>
+                    , sum(cast(vac.new_vaccinations as int)) over (partition by dea.location order by dea.date,dea.location ) as 'cumulative freq' <br>
+                    from [Project 1 SQL DATA EXPLORATION]..CovidDeaths$ dea <br>
+                    join CovidVaccinations$ vac <br>
+                    on dea.date = vac.date and dea.location=vac.location <br>
+                    where dea.continent is not null <br>
+                    ) <br>
+                    SELECT *,([cumulative freq]/population )*100 "cumulative vaccinations percentage" <br>
+                    FROM CTE_popANDvac <br>
+                    order by 2,3; 
+                    
+                </p>
+            </div>
+
+            <!-- output-->
+            <div id="output" class="col-lg-12"> 
+                <h3>Output:</h3>
+                <img class="slide-image" src="images/P2/s10i1.jpg" alt="slide-10-image-1"  >
+            </div> 
+ 
+
+        </div>
+      
+        
+    </div>
+</section>
+
+
+
+
+
+
+
+  <!-- Footer co -->
+
+  <section class="coloured" id="cta">
+    <div>
+    <h1>Contact </h1>
+    <a href="https://www.linkedin.com/in/prakhar-avasthi-35067a1bb/" target="_blank" rel="noopener noreferrer"><button class="btn btn-dark btn-lg cta-button" type="button"> Linkedin </button></a>
+    <a href="mailto:prakharavasthi1999@gmail.com"><button class="btn btn-dark btn-lg cta-button" type="button"> Mail </button></a>
+    <a href="https://github.com/AvasthiPrakhar/Portfolio" target="_blank" rel="noopener noreferrer"><button class="btn btn-dark btn-lg cta-button" type="button"> Github </button></a>
+    
+    </div>
+
+  </section>
+
+
+</body>
+
+</html>
+
+

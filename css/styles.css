@@ -33,9 +33,6 @@
 
 
 
-
-
-
 /************************************** Tag Selectors ***********************************/
 
 
@@ -112,6 +109,10 @@ h2,h3,h4,h5,h6 {
 
 .card {
     padding: 5%;
+    /* border: dashed ;
+    border-color: #66bfbf; */
+
+
 }
 
 .price-card-h2 {
@@ -201,3 +202,120 @@ h2,h3,h4,h5,h6 {
 .hashtags{
     color:#8C6A5D
 }
+
+
+
+/********************************** images **********************************/
+
+.slide-image {
+    padding: 2% 2% 2% 2%;  
+    width: 100%;
+
+}
+ 
+/**********************************title slide (slide-1) **********************************/
+
+
+#slide-1 {
+    padding: 0% 12% 12rem ;
+    
+}
+
+
+/**********************************furthur slides **********************************/
+
+#slide-2{
+    background-color: #824D74 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+}
+
+
+#slide-3{
+    background-color: #BE7B72 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+
+#slide-4{
+    background-color: #FDAF7B ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+#slide-5{
+    background-color: #824D74 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+}
+
+#slide-6{
+    background-color: #BE7B72 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+#slide-7{
+    background-color: #FDAF7B ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+#slide-8{
+    background-color: #824D74 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+
+#slide-9{
+    background-color: #BE7B72 ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+
+#slide-10{
+    background-color: #FDAF7B ;
+    color : #fff;
+    padding: 5% 5% 5% 5%;
+    text-align: left;
+
+}
+
+
+
+
+
+#coding{
+    margin-top: 2px ;
+    padding: 2% 2% ;
+    font-weight: lighter;
+    color: #fff;
+    border: dashed;
+    border-bottom-style: none;
+}
+
+
+#output{
+    padding: 2% 2% ;
+    font-weight: lighter;
+    color: #fff;
+    border: dashed;
+}
+
